@@ -10,7 +10,7 @@ FuPadのisoイメージを作成するシェルスクリプト。
 
 次のコマンドで、これらパッケージをまとめてインストール可能。
 ```shell
-$ apt install msitools p7zip-full genisoimage
+apt install msitools p7zip-full genisoimage
 ```
 次のコマンドが存在すれば、他のUNIX系環境でも動作する(多分)。
 - msiextract
@@ -35,7 +35,7 @@ https://github.com/niXman/mingw-builds-binaries/releases
 ## 実行方法
 
 ```shell
-$ ./mkFuPadPortable.sh <FuPadのインストーラ> <MinGw64のバイナリファイルアーカイブ>
+./mkFuPadPortable.sh <FuPadのインストーラ> <MinGw64のバイナリファイルアーカイブ>
 ```
 そうすると、mkFuPadPortable.shと同じディレクトリに、FuPadPortable.isoが作成される。
 
