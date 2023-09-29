@@ -21,7 +21,7 @@ function extractFuPad()
 function extractMinGw()
 {
     # mingwの抽出
-    7za x ${MINGW_ARCHIVE} -o${ISOROOT}
+    7z x ${MINGW_ARCHIVE} -o${ISOROOT}
 }
 
 function mkFuPadIso()
