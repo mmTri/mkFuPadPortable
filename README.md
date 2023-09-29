@@ -3,7 +3,11 @@
 FuPadのisoイメージを作成するシェルスクリプト。
 
 ## 実行環境
-次のパッケージをインストールした、Ubuntu Linuxを想定。
+次のいずれかの環境で、実行可能。
+### VSCodeとDocker
+VSCodeのDevContainerの設定ファイルも一緒に配布しているので、そこでターミナルを開いて作業可能。
+
+### 次のパッケージをインストールしたUbuntu Linux
 - msitools
 - p7zip-full
 - genisoimage
@@ -12,10 +16,10 @@ FuPadのisoイメージを作成するシェルスクリプト。
 ```shell
 apt install msitools p7zip-full genisoimage
 ```
-次のコマンドが存在すれば、他のUNIX系環境でも動作する(多分)。
+### 次のコマンドがインストールされたUNIX系環境(多分動く)
 - msiextract
     - msiファイルからのファイル抽出
-- p7za
+- 7z
     - 7zipファイルの展開
 - mkisofs
     - isoファイルの作成
